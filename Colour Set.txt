@@ -1,0 +1,10 @@
+Colours 
+Light Grey (FOR BEHIND TEXT) - 4E4E4C
+Dark Grey (FOR BACKGROUND) - 353432
+White (FOR TEXT) - EED7DC
+Green - 948864
+Dark Blue - 285074
+Light Blue - 2591B0
+Purple - AF84BC
+Pink/red - E24752
+Yellow - FFC61D
