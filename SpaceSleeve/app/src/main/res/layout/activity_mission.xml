@@ -14,13 +14,6 @@
         android:orientation="horizontal"
         android:background="#353432">
 
-        <!--                <CheckBox
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/CheckBox"
-                        android:layout_marginTop="40dp"
-                        android:layout_marginBottom="40dp"
-                        android:text="Objective 1"/>-->
 
         <TextView
             android:layout_width="wrap_content"
@@ -66,8 +59,6 @@
             android:layout_height="wrap_content"
             android:id="@+id/textClock"
             android:textColor="#EED7DC"
-            android:layout_below="@+id/linearLayout"
-            android:layout_toEndOf="@+id/textView"
             android:layout_marginStart="38dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="20dp"/>
@@ -79,15 +70,14 @@
             android:layout_marginLeft="90dp"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true" />
-        android:layout_width="wrap_content"
+            android:layout_width="wrap_content"
         <TextClock        android:layout_height="wrap_content"
 
 
             android:id="@+id/textClock2"
             android:textColor="#EED7DC"
-            android:layout_below="@+id/linearLayout"
-            android:layout_alignParentEnd="true"            android:layout_marginEnd="38dp"
-
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="38dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="20dp"
             android:layout_width="wrap_content" />
@@ -97,7 +87,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"        android:background="#4E4E4C">
+        android:orientation="vertical"
+        android:background="#4E4E4C">
 
         <TextView
 
@@ -113,9 +104,9 @@
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/CheckBox"
+            android:id="@+id/CheckBox1"
             android:textColor="#EED7DC"
-
+            android:textSize="15sp"
             android:layout_marginBottom="20dp"
             android:layout_marginLeft="40dp"
             android:layout_marginRight="20dp"
@@ -127,8 +118,9 @@
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/CheckBox"
+            android:id="@+id/CheckBox2"
             android:textColor="#EED7DC"
+            android:textSize="15sp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="20dp"
             android:layout_marginLeft="40dp"
@@ -140,8 +132,9 @@
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/CheckBox"
+            android:id="@+id/CheckBox3"
             android:textColor="#EED7DC"
+            android:textSize="15sp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="20dp"
             android:layout_marginLeft="40dp"
@@ -153,8 +146,9 @@
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/CheckBox"
+            android:id="@+id/CheckBox4"
             android:textColor="#EED7DC"
+            android:textSize="15sp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="20dp"
             android:layout_marginLeft="40dp"
@@ -166,8 +160,9 @@
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/CheckBox"
+            android:id="@+id/CheckBox5"
             android:textColor="#EED7DC"
+            android:textSize="15sp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="20dp"
             android:layout_marginLeft="40dp"
@@ -180,8 +175,9 @@
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/CheckBox"
+            android:id="@+id/CheckBox6"
             android:textColor="#EED7DC"
+            android:textSize="15sp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="20dp"
             android:layout_marginLeft="40dp"
@@ -192,32 +188,65 @@
 
     </LinearLayout>
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:background="#353432">
 
-        <ImageView
-            android:src="@drawable/base"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_centerVertical="true"
-            android:layout_alignParentLeft="true"
-            android:layout_marginLeft="90dp"
-            />
-
-        <TextView
-            android:layout_width="wrap_content"
+        <RelativeLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="1.25km"
-            android:textSize="40sp"
-            android:textColor="#EED7DC"
-            android:layout_centerVertical="true"
-            android:layout_alignParentRight="true"
-            android:layout_marginRight="90dp"
-            />
+            android:orientation="horizontal"
+            >
 
-    </RelativeLayout>
+            <ImageView
+                android:src="@drawable/base"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="25dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="90dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.25km"
+                android:textSize="40sp"
+                android:textColor="#EED7DC"
+                android:layout_marginTop="35dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="90dp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="ELAPSED TIME: "
+                android:textSize="20sp"
+                android:textColor="#EED7DC"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+
+            <Chronometer
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="285dp"
+                android:layout_marginTop="15dp"
+                />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
 
 </LinearLayout>
