@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SpaceSleeve</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="heart"/>
+
+    <string name="title_activity_team_transition">TeamTransitionActivity</string>
+
+    <string name="title_activity_mission">MissionActivity</string>
+</resources>
