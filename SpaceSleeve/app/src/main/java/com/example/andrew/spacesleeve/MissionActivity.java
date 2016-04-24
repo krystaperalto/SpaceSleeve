@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.Chronometer;
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
@@ -68,6 +69,9 @@ public class MissionActivity extends AppCompatActivity {
             hide();
         }
     };
+
+    private Chronometer timer;
+
     /**
      * Touch listener to use for in-layout UI controls to delay hiding the
      * system UI. This is to prevent the jarring behavior of controls going away
@@ -105,6 +109,7 @@ public class MissionActivity extends AppCompatActivity {
         // Upon interacting with UI controls, delay any scheduled hide()
         // operations to prevent the jarring behavior of controls going away
         // while interacting with the UI.
+        timer.start();
         findViewById(R.id.dummy_button).setOnTouchListener(mDelayHideTouchListener);
     }
 

@@ -14,14 +14,6 @@
         android:orientation="horizontal"
         android:background="#353432">
 
-        <!--                <CheckBox
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/CheckBox"
-                        android:layout_marginTop="40dp"
-                        android:layout_marginBottom="40dp"
-                        android:text="Objective 1"/>-->
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -113,7 +105,7 @@
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/CheckBox"
+            android:id="@+id/CheckBox1"
             android:textColor="#EED7DC"
 
             android:layout_marginBottom="20dp"
@@ -127,7 +119,7 @@
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/CheckBox"
+            android:id="@+id/CheckBox2"
             android:textColor="#EED7DC"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="20dp"
@@ -140,7 +132,7 @@
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/CheckBox"
+            android:id="@+id/CheckBox3"
             android:textColor="#EED7DC"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="20dp"
@@ -153,7 +145,7 @@
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/CheckBox"
+            android:id="@+id/CheckBox4"
             android:textColor="#EED7DC"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="20dp"
@@ -166,7 +158,7 @@
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/CheckBox"
+            android:id="@+id/CheckBox5"
             android:textColor="#EED7DC"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="20dp"
@@ -180,7 +172,7 @@
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/CheckBox"
+            android:id="@+id/CheckBox6"
             android:textColor="#EED7DC"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="20dp"
